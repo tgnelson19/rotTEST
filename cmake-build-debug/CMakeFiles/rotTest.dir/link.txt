@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\rotTest.dir/objects.a
+C:\PROGRA~2\REALMI~1.3\mingw64\bin\ar.exe cr CMakeFiles\rotTest.dir/objects.a @CMakeFiles\rotTest.dir\objects1.rsp
+C:\PROGRA~2\REALMI~1.3\mingw64\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\rotTest.dir/objects.a -Wl,--no-whole-archive  -o rotTest.exe -Wl,--out-implib,librotTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\rotTest.dir\linklibs.rsp

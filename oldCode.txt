@@ -1,0 +1,64 @@
+        /*
+
+        window.draw(arrow);
+        arrow.setPosition(pD.getPosX(), pD.getPosY());
+        arrow.setRotation((atan(mousePos.at(1) / mousePos.at(0)) * 57.29));
+
+         */
+
+
+
+    //enemy.setPosition(defX, defY); // 1/2 Max x and y of the screen is in the middle of the screen
+    //minienemy.setPosition(500, 500); // 1/2 Max x and y of the minimap is in the middle of the minimap
+
+
+
+
+
+
+
+    /* //Old code for when there was one arrow
+
+            if (sf::Mouse::isButtonPressed(mouse.Left)) {
+
+                if (!pD.isActive()) {
+
+                    Vector2i mvec = sf::Mouse::getPosition(window);
+
+                    mousePos.at(0) = mvec.x - defX;
+                    mousePos.at(1) = mvec.y - defY;
+
+                    pD.setPosX(defX);
+                    pD.setPosY(defY);
+
+                    pD.setXSpeed(projSpeed * (mousePos.at(0)/ (sqrtf((mousePos.at(0) * mousePos.at(0)) + (mousePos.at(1) * mousePos.at(1))))));
+                    pD.setYSpeed(projSpeed * (mousePos.at(1)/ (sqrtf((mousePos.at(0) * mousePos.at(0)) + (mousePos.at(1) * mousePos.at(1))))));
+
+                    pD.setActive(true);
+                }
+            }
+
+            ///Changing position of active arrows
+
+            if (pD.isActive()) {
+
+                pD.setPosX(pD.getPosX() + pD.getXSpeed() + (dCX/10));
+                pD.setPosY(pD.getPosY() + pD.getYSpeed() + (dCY/10));
+
+                ///Checking for out of bounds Projectiles and making them defaulted
+
+                if ((pD.getPosX() > 1200) || (pD.getPosX() < 0) ||
+                    (pD.getPosY() > 800) ||
+                    (pD.getPosY() < 0)) {
+
+                    pD.setXSpeed(0);
+                    pD.setYSpeed(0);
+                    pD.setPosX(defX);
+                    pD.setPosY(defY);
+                    pD.setActive(false);
+
+                }
+
+            }
+
+            */
